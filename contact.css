@@ -1,0 +1,1181 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    background:linear-gradient(160deg, #553939, #dddd);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-container {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #2f2c28;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.sub-container .logo {
+    position: relative;
+    left: 12px;
+    width: 80px;
+    height: 80px;
+}
+
+.sub-container .name {
+    color: #e8e4c9;
+    font-size: 300%;
+    font-weight: 2000;
+    position: relative;
+    right: 24%;
+    cursor:default;
+}
+
+.sub-container ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.sub-container ul li {
+    padding: 10px 35px;
+    list-style: none;
+}
+
+.sub-container ul li a {
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.sub-container ul li a:hover {
+    color: #7b7b7b;
+    transform: scale(1.5);
+}
+
+.contact-container {
+    position: relative;
+    top: 110px;
+    left: 500px;
+    width: 35%;
+    height: 450px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.contact-container .cnct-box{
+    padding: 15px;
+    gap: 4px;
+    align-items: center;
+    background-color: #A77979;
+    box-shadow: 10px 10px 100px 10px;
+    height: 80vh;
+    display: grid;
+}
+
+ .cnct-box #text {
+    padding: 10px;
+    width: 500px;
+}
+
+.cnct-box #country {
+    width: 500px;
+    padding: 10px;
+}
+
+
+.cnct-box #subject {
+    padding: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+.cnct-box #rmbrtxt {
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+}
+
+.cnct-box #chckbx {
+    position: relative;
+    width: 15px;
+    height: 13px;
+    bottom: 19px;
+    left: 110px;
+}
+
+.cnct-box .btn {
+    position: relative;
+    width: 100px;
+    border-radius: 20px;
+    bottom: 15px;
+    padding: 5px;
+}
+
+.cnct-box #text:hover{
+    border-radius: 5px;
+    border-style: 2px solid black;
+    background: #c4c4c4;
+} 
+
+.cnct-box #country:hover {
+    background: #c4c4c4;
+}
+
+.cnct-box #subject:hover {
+    background: #dddd;
+    color: black;
+}
+
+.cnct-box .btn:hover {
+    color: black;
+    background-color: #c4c4c4;
+}
+
+#hero-foot {   
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-foot p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        font-size: 50px;
+    }
+    
+    .sub-container {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #2f2c28;
+         justify-content: space-between;
+         justify-items: center;
+         z-index: 1;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 8px;
+        align-items: center;
+        background-color: #A77979;
+        box-shadow: 10px 10px 100px 10px;
+        height: 800px;
+        display: grid;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 200px;
+        left: 280px;
+        width: 700px;
+        height: 500px;
+        font-family: arial;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 225px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 10px;
+        width: 470px;
+    }
+
+    .cnct-box #country {
+        width: 470px;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 120px;
+        border-radius: 10px;
+        bottom: 15px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 21.5px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1204px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        font-size: 50px;
+    }
+    
+    .sub-container {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        background-color: #2f2c28;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         justify-items: center;
+         z-index: 1;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 8px;
+        align-items: center;
+        background-color: #A77979;
+        box-shadow: 10px 10px 100px 10px;
+        height: 800px;
+        display: grid;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 200px;
+        left: 280px;
+        width: 700px;
+        height: 500px;
+        font-family: arial;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 225px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 10px;
+        width: 470px;
+    }
+
+    .cnct-box #country {
+        width: 470px;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 120px;
+        border-radius: 10px;
+        bottom: 15px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 21.5px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        font-size: 40px;
+    }
+    
+    .sub-container ul {
+        position: relative;
+        
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        background-color: #A77979;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 260px;
+        left: 300px;
+        width: 550px;
+        height: 450px;
+        font-family: arial;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 225px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 10px;
+        width: auto;
+    }
+
+    .cnct-box #country {
+        width: auto;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 120px;
+        border-radius: 10px;
+        bottom: 7px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 105px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        font-size: 40px;
+    }
+    
+    .sub-container ul li  {
+        display: none;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 2px;
+        align-items: center;
+        background-color: #A77979;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 260px;
+        left: 300px;
+        width: 500px;
+        height: 450px;
+        font-family: arial;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 225px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 10px;
+        width: auto;
+    }
+
+    .cnct-box #country {
+        width: auto;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 120px;
+        border-radius: 10px;
+        bottom: 7px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 105px;
+    }
+}
+
+/*Ipad Mini*/
+@media screen and (max-width: 770px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        width: 250px;
+        font-size: 40px;
+    }
+    
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 700px;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 200px;
+        left: px;
+        width: 700px;
+        height: 350px;
+        font-family: arial;
+    }
+
+    .cnct-box #sbjct-name {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #cntry {
+        font-size: 30px;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 10px;
+        width: auto;
+    }
+
+    .cnct-box #country {
+        width: auto;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 10px;
+        bottom: 7px;
+        padding: 5px;
+    }
+
+    .cnct-box #rmbrtxt {
+        font-size: 20px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        bottom: 36px;
+        left: 130px;
+    }
+}
+
+/*Ipad Air*/
+@media screen and (max-width: 830px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        position: fixed;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 90px;
+        font-size: 40px;
+    }
+    
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+    .contact-container {
+        position: relative;
+        top: 150px;
+        left: 170px;
+        width: 510px;
+        font-family: arial;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 8px;
+        width: auto;
+    }
+
+    .cnct-box #country {
+        width: auto;
+        padding: 10px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 300px;
+        left: 90px;
+        border-radius: 10px;
+        bottom: 15px;
+        padding: 2px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 140px;
+    }
+}
+/*Pixel 5*/
+@media screen and (max-width: 395px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    .sub-container ul  {
+        display: none;
+    }
+    
+    .contact-container {
+        position: relative;
+        top: 50px;
+        left: 34px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 2px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+/*Iphone XR*/
+@media screen and (max-width: 420px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    
+    .contact-container {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 0px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+/*Iphone 12 Pro*/
+@media screen and (max-width: 400px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    
+    .contact-container {
+        position: relative;
+        top: 100px;
+        left: 40px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+        bottom: 7px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+/*Iphone SE*/
+@media screen and (max-width: 377px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    .contact-container {
+        position: relative;
+        top: 50px;
+        right: 20px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 250px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 7px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+/*Samsung Galaxy S8+*/
+
+@media screen and (max-width: 370px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    .contact-container {
+        position: relative;
+        top: 60px;
+        left: 25px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 0px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+
+/*Surface duo*/
+@media screen and (max-width: 550px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    .contact-container {
+        position: relative;
+        top: 60px;
+        left: 100px;
+        width: 310px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: auto;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 280px;
+    }
+
+    .cnct-box #country {
+        width: 280px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 280px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 0px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 50%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+/*Galaxy Fold*/
+@media screen and (max-width: 290px) {
+    .container {
+        background:linear-gradient(160deg, #553939, #dddd);
+    }
+
+    .sub-container .logo {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        left: 0px;
+    }
+
+    .container .name {
+        position: absolute;
+        left: 60px;
+        font-size: 30px;
+    }
+    
+    .contact-container {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        width: 260px;
+        height: 450px;
+        font-size: 2px;
+    }
+
+    .contact-container .cnct-box{
+        padding: 15px;
+        gap: 1px;
+        align-items: center;
+        box-shadow: 10px 10px 100px 10px;
+        height: 500px;
+        display: grid;
+    }
+
+
+    .cnct-box #email {
+        font-size: 30px;
+    }
+
+    .cnct-box #subject {
+        padding: 10px;
+        width: 230px;
+        height: 250px;
+        text-transform: capitalize;
+    }
+
+    .cnct-box #text {
+        text-transform: capitalize;
+        padding: 5px;
+        width: 230px;
+    }
+
+    .cnct-box #country {
+        width: 230px;
+        padding: 5px;
+    }
+
+    .cnct-box .btn {
+        position: relative;
+        width: 230px;
+        border-radius: 20px;
+        bottom: 7px;
+        left: 0px;
+        padding: 5px;
+    }
+
+    .cnct-box #chckbx {
+        position: relative;
+        width: 10px;
+        bottom: 17.5px;
+        left: 63%;
+    }
+    
+    .button {
+        font-size: 20px;
+    }
+}
+

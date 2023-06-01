@@ -1,0 +1,275 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background: #743c14;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.sub-container {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #2f2c28;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1;
+}
+
+.sub-container .logo {
+    position: relative;
+    left: 12px;
+    width: 80px;
+    height: 80px;
+}
+
+.sub-container .name {
+    color: #e8e4c9;
+    font-size: 300%;
+    font-weight: 2000;
+    position: relative;
+    right: 33%;
+    cursor:default;
+}
+
+.sub-container ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.sub-container ul li {
+    padding: 10px 15px;
+    list-style: none;
+}
+
+.sub-container ul li a {
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.sub-container ul li a:hover {
+    color: #7b7b7b;
+    transform: scale(1.5);
+}
+
+.heading {
+   position: relative;
+   top: 300px;
+   left: 200px;
+   width: 500px;
+}
+
+.heading p {
+    color: #e8e4c9;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.slideshow {
+    position: relative;
+    left: 900px;
+    top: 75px;
+    width: 50px;
+}
+
+.slideshow img {
+    z-index: 1px;
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+
+#hero-text-container {
+    background: rgb(72, 34, 34);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 80px;
+}
+
+.hero-text {
+    background-color: gray;
+    box-shadow: 5px 3px 5px 3px;
+    position: relative;
+    top: 155px;
+    left: 220px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-text h3 {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    
+}
+
+.hero-text #color1 {
+    color: yellow;
+}
+
+.hero-text #color2 {
+    color: #743c14;
+}
+
+.hero-text p {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 35px;
+    text-align: start;
+    font-style: italic;
+    font-size: larger;
+}
+
+#hero-foot {   
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-foot p {
+    text-align: center;
+}
+
+.hero-about {
+    background: rgb(125, 71, 53);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-container {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    top: 90px;
+    left: 600px;
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.hero-container p {
+    color: black;
+    font-size: 20px;
+}
+
+.hero-container img {
+    position: relative;
+    top: 40px;
+    width: 310px;
+    height: 300px;
+    float: left;
+}
+
+
+/*Media Settings for All Devices*/
+
+@media screen and (width: 1100px) {
+    .sub-container ul li a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400) {
+    .container {
+        object-fit: fill;
+    }
+
+    
+    .sub-container .heading {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        background-size: auto;
+    }
+
+    .sub-container {
+        object-fit: fill;
+    }
+    
+    .sub-container ul li a {
+        display: none;
+        overflow: hidden;
+    }
+
+    .sub-container .name {
+        position: relative;
+        left: 20px;
+        text-align: justify;
+    }
+
+    .sub-container .logo {
+        position: relative;
+    }
+
+    #hero-text-container {
+        display: inline;
+        gap: 20px;
+        background-size: cover;
+    }
+
+    .hero-text p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        object-fit: fill;
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        object-fit: fill;
+    }
+
+    .sub-container {
+        object-fit: contain;
+    }
+
+    .sub-container .name {
+        position: relative;
+        right: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .sub-container .name {
+        position: relative;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 1280) {
+    .sub-container ul li a {
+        display: none;
+    }
+}

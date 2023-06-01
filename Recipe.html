@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Recipe.css" />
+    <link rel="icon" href="logos/icon2.png" />
+    <title>The BeanCo</title>
+  </head>
+
+  <body>
+    <header>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!----LANDING PAGE---->
+      <div class="container">
+        <nav class="sub-container">
+          <img class="logo" src="logos/icon2.png" alt="beans" height="80px" width="80px" />
+          <h2 class="name">The BeanCo</h2>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Recipe.html">Recipe</a></li>
+          </ul>
+        </nav>
+
+        <!-- Trigger the Modal -->
+        <div class="images">
+          <img id="myImg" src="images/AlmondLatte.jpg" alt="Almond Latte">
+          <img id="myImg" src="images/caramelMacch.jpg" alt="Caramel Macch">
+          <img id="myImg"
+            src="images/cold vanilla coffee.jpg"
+            alt="Cold Vanilla Coffee"
+          />
+          <img
+            id="myImg"
+            src="images/creamy caramel latte.jpg"
+            alt="Creamy Caramel Latte"
+          />
+
+          
+          <img id="myImg" src="images/Hazelnut.jpg" alt="Hazelnut">
+          <img
+            id="myImg"
+            src="images/Iced_Caramel_Cappuccino.jpg"
+            alt="Iced Caramel Cappuccino"
+          />
+
+          <img
+            id="myImg"
+            src="images/Milk-and-Honey-Cold-Brew-Coffee-SQUARE.jpg"
+            alt="Milk and Honey Cold Brew Coffee"
+          />
+
+          <img
+            id="myImg"
+            src="images/Salted Caramel Coffee Chiller_0.webp"
+            alt="Salted Caramel Coffee Chiller"
+          />
+
+          <img
+            id="myImg"
+            src="images/Milk-and-Honey-Cold-Brew-Coffee-SQUARE.jpg"
+            alt="Milk and Honey Cold Brew"
+           
+          />
+
+          <img id="myImg" src="images/cold vanilla coffee.jpg" alt="Cold Vanilla">
+          <img id="myImg" src="images/caramelMacch.jpg" alt="Caramel Macchiato" >
+          <img id="myImg" src="images/spanish latte.jpg" alt="Spanish Latte">
+          <img id="myImg" src="images/spanish latte.jpg" alt="Spanish Latte">
+          <img id="myImg" src="images/spanish latte.jpg" alt="Spanish Latte">
+          <img id="myImg" src="images/spanish latte.jpg" alt="Spanish Latte">
+          <img id="myImg" src="images/spanish latte.jpg" alt="Spanish Latte">
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" style="display: none">
+          <img src="images/AlmondLatte.jpg" alt="Modal Image">
+          <div class="coffee-details">
+            <h2>Almond Latte</h2>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <svg id="closeModal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                fill="#FFFFFF"
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="hero-foot">
+            <p>@HCI PROJECT | MERCADER, MC PETERSON C. | BSCS - 2B</p>
+        </div>
+    </footer>
+    </header>
+    
+
+    <!----<script>
+      const myImgs = document.querySelectorAll(`#myImg`);
+      const modal = document.querySelector(`.modal`);
+      const closeModal = document.querySelector(`#closeModal`);
+
+      closeModal.addEventListener('pointerdown', () => {
+        modal.style.display = 'none';
+      });
+
+      myImgs.forEach((myImg) => {
+        myImg.addEventListener(`pointerdown`, () => {
+          console.log(modal.lastElementChild.children[0].textContent);
+          modal.firstElementChild.src = myImg.src;
+          modal.lastElementChild.children[0].textContent = myImg.alt;
+          modal.style.display = `flex`;
+        });
+      });
+    </script>--->
+
+    <script src="clickAble.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="logos/icon2.png">
+    <script src="function.js"></script>
+    <title>The BeanCo</title>
+</head>
+
+
+<body>
+<header>    
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!----LANDING PAGE---->
+    <div class="container">
+        <nav class="sub-container">
+            <img class="logo" src="logos/icon2.png" alt="beans" height="80px" width="80px">
+            <h2 class="name">The BeanCo</h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact-container">
+        <form class="cnct-box">
+            <label for="email" id="email">Email</label>
+            <input type="email" id="text" maxlength="30" placeholder="Input email" required>
+            <label for="country" id="cntry">country</label>
+            <select id="country" required>
+                <option value="Select country">Select country</option>
+                <option value="Philippines">Phillipines</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="China">China</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <label for="subject" id="sbjct-name">Subject</label>
+            <textarea name="subject" id="subject" placeholder="Write something..." required></textarea>
+
+
+            <label id="rmbrtxt" for="remember">Remember me:</label>
+            <input id="chckbx" type="checkbox">
+            <button type="button" class="btn" onclick="myFunc()">Submit</button>
+        </form>
+    </div>
+    
+</div>
+<footer>
+    <div id="hero-foot">
+    <p>@HCI PROJECT | MERCADER, MC PETERSON C. | BSCS - 2B</p>
+    </div>
+</footer>
+</header>
+</body>
+</html>
